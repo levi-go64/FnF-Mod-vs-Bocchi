@@ -1,0 +1,148 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				8,
+				0
+			],
+			"loop": true,
+			"fps": 0,
+			"anim": "singLEFT-loop",
+			"indices": [
+				12,
+				13,
+				14,
+				15
+			],
+			"name": "danbocchi left"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 0,
+			"anim": "singUP-loop",
+			"indices": [
+				56,
+				57,
+				58,
+				59
+			],
+			"name": "danbocchi up"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 0,
+			"anim": "singRIGHT-loop",
+			"indices": [
+				15,
+				16,
+				17,
+				18
+			],
+			"name": "danbocchi right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 25,
+			"name": "Ryo-G L",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singDOWN",
+			"fps": 25,
+			"name": "Ryo-G D",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUP",
+			"fps": 25,
+			"name": "Ryo-G U",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 25,
+			"name": "Ryo-G R",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "Baaaa",
+			"fps": 25,
+			"name": "Ryo-G Baaaa",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 0,
+			"anim": "idle-loop",
+			"indices": [],
+			"name": "Ryo-G I"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 20,
+			"name": "Ryo-G I",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Ryo-G",
+	"position": [
+		-300,
+		-200
+	],
+	"healthicon": "Ryo",
+	"flip_x": false,
+	"healthbar_colors": [
+		76,
+		108,
+		165
+	],
+	"camera_position": [
+		0,
+		300
+	],
+	"sing_duration": 6.1,
+	"scale": 0.8
+}

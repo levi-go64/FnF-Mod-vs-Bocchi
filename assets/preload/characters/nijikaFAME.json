@@ -1,0 +1,142 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-5,
+				-415
+			],
+			"loop": false,
+			"fps": 25,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "nijikaFAME left"
+		},
+		{
+			"offsets": [
+				0,
+				-415
+			],
+			"loop": false,
+			"fps": 25,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "nijikaFAME down"
+		},
+		{
+			"offsets": [
+				4,
+				-415
+			],
+			"loop": false,
+			"fps": 25,
+			"anim": "singUP",
+			"indices": [],
+			"name": "nijikaFAME up"
+		},
+		{
+			"offsets": [
+				0,
+				-415
+			],
+			"loop": false,
+			"fps": 25,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "nijikaFAME right"
+		},
+		{
+			"offsets": [
+				-8,
+				10
+			],
+			"loop": true,
+			"fps": 0,
+			"anim": "singLEFT-loop",
+			"indices": [
+				12,
+				13,
+				14,
+				15
+			],
+			"name": "nijikaFAME left"
+		},
+		{
+			"offsets": [
+				-5,
+				50
+			],
+			"loop": true,
+			"fps": 0,
+			"anim": "singUP-loop",
+			"indices": [
+				56,
+				57,
+				58,
+				59
+			],
+			"name": "nijikaFAME up"
+		},
+		{
+			"offsets": [
+				1,
+				27
+			],
+			"loop": true,
+			"fps": 0,
+			"anim": "singRIGHT-loop",
+			"indices": [
+				15,
+				16,
+				17,
+				18
+			],
+			"name": "nijikaFAME right"
+		},
+		{
+			"offsets": [
+				1,
+				0
+			],
+			"loop": true,
+			"fps": 0,
+			"anim": "idle-loop",
+			"indices": [
+				10,
+				11,
+				12,
+				12
+			],
+			"name": "nijikaFAME idle"
+		},
+		{
+			"offsets": [
+				0,
+				-415
+			],
+			"loop": false,
+			"fps": 15,
+			"anim": "idle",
+			"indices": [],
+			"name": "nijikaFAME idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/nijikaFAME",
+	"position": [
+		-120,
+		-280
+	],
+	"healthicon": "nijikafame",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		213,
+		0
+	],
+	"camera_position": [
+		340,
+		475
+	],
+	"sing_duration": 6.09999990463257,
+	"scale": 1
+}

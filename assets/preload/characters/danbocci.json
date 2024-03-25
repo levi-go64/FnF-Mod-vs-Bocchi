@@ -1,0 +1,142 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-8,
+				-415
+			],
+			"fps": 25,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "danbocchi left"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-415
+			],
+			"fps": 25,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "danbocchi down"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				4,
+				-415
+			],
+			"fps": 25,
+			"anim": "singUP",
+			"indices": [],
+			"name": "danbocchi up"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-415
+			],
+			"fps": 25,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "danbocchi right"
+		},
+		{
+			"offsets": [
+				-8,
+				10
+			],
+			"loop": true,
+			"fps": 0,
+			"anim": "singLEFT-loop",
+			"indices": [
+				12,
+				13,
+				14,
+				15
+			],
+			"name": "danbocchi left"
+		},
+		{
+			"offsets": [
+				-5,
+				50
+			],
+			"loop": true,
+			"fps": 0,
+			"anim": "singUP-loop",
+			"indices": [
+				56,
+				57,
+				58,
+				59
+			],
+			"name": "danbocchi up"
+		},
+		{
+			"offsets": [
+				1,
+				27
+			],
+			"loop": true,
+			"fps": 0,
+			"anim": "singRIGHT-loop",
+			"indices": [
+				15,
+				16,
+				17,
+				18
+			],
+			"name": "danbocchi right"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				1,
+				0
+			],
+			"anim": "idle-loop",
+			"fps": 0,
+			"name": "danbocchi idle",
+			"indices": [
+				10,
+				11,
+				12,
+				12
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-415
+			],
+			"anim": "idle",
+			"fps": 30,
+			"name": "danbocchi idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/danbocchi",
+	"position": [
+		0,
+		-110
+	],
+	"healthicon": "danbo",
+	"flip_x": false,
+	"healthbar_colors": [
+		213,
+		180,
+		132
+	],
+	"camera_position": [
+		-150,
+		90
+	],
+	"sing_duration": 6.1,
+	"scale": 3
+}
