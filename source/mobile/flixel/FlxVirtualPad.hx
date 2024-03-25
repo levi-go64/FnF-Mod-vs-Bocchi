@@ -76,34 +76,34 @@ class FlxVirtualPad extends FlxSpriteGroup
 		switch (DPad)
 		{
 			case UP_DOWN:
-				add(buttonUp = createButton(0, FlxG.height - 255, 132, 127, 'up', 0x00FF00));
-				add(buttonDown = createButton(0, FlxG.height - 135, 132, 127, 'down', 0x00FFFF));
+				add(buttonUp = createButton(0, FlxG.height - 255, 132, 127, 'up', 0xFF0909));
+				add(buttonDown = createButton(0, FlxG.height - 135, 132, 127, 'down', 0xFFEA09));
 			case LEFT_RIGHT:
-				add(buttonLeft = createButton(0, FlxG.height - 135, 132, 127, 'left', 0xFF00FF));
+				add(buttonLeft = createButton(0, FlxG.height - 135, 132, 127, 'left', 0x6309FF));
 				add(buttonRight = createButton(127, FlxG.height - 135, 132, 127, 'right', 0xFF0000));
 			case UP_LEFT_RIGHT:
-				add(buttonUp = createButton(105, FlxG.height - 243, 132, 127, 'up', 0x00FF00));
-				add(buttonLeft = createButton(0, FlxG.height - 135, 132, 127, 'left', 0xFF00FF));
-				add(buttonRight = createButton(207, FlxG.height - 135, 132, 127, 'right', 0xFF0000));
+				add(buttonUp = createButton(105, FlxG.height - 243, 132, 127, 'up', 0xFF0909));
+				add(buttonLeft = createButton(0, FlxG.height - 135, 132, 127, 'left', 0x6309FF));
+				add(buttonRight = createButton(207, FlxG.height - 135, 132, 127, 'right', 0xE309FF));
 			case LEFT_FULL:
-				add(buttonUp = createButton(105, FlxG.height - 345, 132, 127, 'up', 0x00FF00));
-				add(buttonLeft = createButton(0, FlxG.height - 243, 132, 127, 'left', 0xFF00FF));
-				add(buttonRight = createButton(207, FlxG.height - 243, 132, 127, 'right', 0xFF0000));
-				add(buttonDown = createButton(105, FlxG.height - 135, 132, 127, 'down', 0x00FFFF));
+				add(buttonUp = createButton(105, FlxG.height - 345, 132, 127, 'up', 0xFF0909));
+				add(buttonLeft = createButton(0, FlxG.height - 243, 132, 127, 'left', 0x6309FF));
+				add(buttonRight = createButton(207, FlxG.height - 243, 132, 127, 'right', 0xE309FF));
+				add(buttonDown = createButton(105, FlxG.height - 135, 132, 127, 'down', 0xFFEA09));
 			case RIGHT_FULL:
-				add(buttonUp = createButton(FlxG.width - 258, FlxG.height - 408, 132, 127, 'up', 0x00FF00));
-				add(buttonLeft = createButton(FlxG.width - 384, FlxG.height - 309, 132, 127, 'left', 0xFF00FF));
-				add(buttonRight = createButton(FlxG.width - 132, FlxG.height - 309, 132, 127, 'right', 0xFF0000));
-				add(buttonDown = createButton(FlxG.width - 258, FlxG.height - 201, 132, 127, 'down', 0x00FFFF));
+				add(buttonUp = createButton(FlxG.width - 258, FlxG.height - 408, 132, 127, 'up', 0xFF0909));
+				add(buttonLeft = createButton(FlxG.width - 384, FlxG.height - 309, 132, 127, 'left', 0x6309FF));
+				add(buttonRight = createButton(FlxG.width - 132, FlxG.height - 309, 132, 127, 'right', 0xE309FF));
+				add(buttonDown = createButton(FlxG.width - 258, FlxG.height - 201, 132, 127, 'down', 0xFFEA09));
 			case BOTH_FULL:
-				add(buttonUp = createButton(105, FlxG.height - 345, 132, 127, 'up', 0x00FF00));
-				add(buttonLeft = createButton(0, FlxG.height - 243, 132, 127, 'left', 0xFF00FF));
-				add(buttonRight = createButton(207, FlxG.height - 243, 132, 127, 'right', 0xFF0000));
-				add(buttonDown = createButton(105, FlxG.height - 135, 132, 127, 'down', 0x00FFFF));
-				add(buttonUp2 = createButton(FlxG.width - 258, FlxG.height - 408, 132, 127, 'up', 0x00FF00));
+				add(buttonUp = createButton(105, FlxG.height - 345, 132, 127, 'up', 0xFF0909));
+				add(buttonLeft = createButton(0, FlxG.height - 243, 132, 127, 'left', 0x6309FF));
+				add(buttonRight = createButton(207, FlxG.height - 243, 132, 127, 'right', 0xE309FF));
+				add(buttonDown = createButton(105, FlxG.height - 135, 132, 127, 'down', 0xFFEA09));
+				add(buttonUp2 = createButton(FlxG.width - 258, FlxG.height - 408, 132, 127, 'up', 0xFF0909));
 				add(buttonLeft2 = createButton(FlxG.width - 384, FlxG.height - 309, 132, 127, 'left', 0xFF00FF));
 				add(buttonRight2 = createButton(FlxG.width - 132, FlxG.height - 309, 132, 127, 'right', 0xFF0000));
-				add(buttonDown2 = createButton(FlxG.width - 258, FlxG.height - 201, 132, 127, 'down', 0x00FFFF));
+				add(buttonDown2 = createButton(FlxG.width - 258, FlxG.height - 201, 132, 127, 'down', 0xFFEA09));
 			case NONE: // do nothing
 		}
 
