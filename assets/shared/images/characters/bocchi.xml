@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="IMG.png">
+<SubTexture name="bocchi idle0000" x="0" y="0" width="652" height="652"/>
+<SubTexture name="bocchi idle0001" x="652" y="0" width="652" height="652"/>
+<SubTexture name="bocchi idle0002" x="1304" y="0" width="652" height="652"/>
+<SubTexture name="bocchi idle0003" x="1956" y="0" width="652" height="652"/>
+<SubTexture name="bocchi idle0004" x="2608" y="0" width="652" height="652"/>
+<SubTexture name="bocchi idle0005" x="0" y="652" width="652" height="652"/>
+<SubTexture name="bocchi idle0006" x="652" y="652" width="652" height="652"/>
+<SubTexture name="bocchi idle0007" x="1304" y="652" width="652" height="652"/>
+<SubTexture name="bocchi down0000" x="1956" y="652" width="652" height="652"/>
+<SubTexture name="bocchi down0001" x="2608" y="652" width="652" height="652"/>
+<SubTexture name="bocchi down0002" x="0" y="1304" width="652" height="652"/>
+<SubTexture name="bocchi down0003" x="652" y="1304" width="652" height="652"/>
+<SubTexture name="bocchi down0004" x="1304" y="1304" width="652" height="652"/>
+<SubTexture name="bocchi down0005" x="1956" y="1304" width="652" height="652"/>
+<SubTexture name="bocchi up0000" x="2608" y="1304" width="652" height="652"/>
+<SubTexture name="bocchi up0001" x="0" y="1956" width="652" height="652"/>
+<SubTexture name="bocchi up0002" x="652" y="1956" width="652" height="652"/>
+<SubTexture name="bocchi up0003" x="1304" y="1956" width="652" height="652"/>
+<SubTexture name="bocchi up0004" x="1956" y="1956" width="652" height="652"/>
+<SubTexture name="bocchi up0005" x="2608" y="1956" width="652" height="652"/>
+<SubTexture name="bocchi up0006" x="0" y="2608" width="652" height="652"/>
+<SubTexture name="bocchi right0000" x="652" y="2608" width="652" height="652"/>
+<SubTexture name="bocchi right0001" x="1304" y="2608" width="652" height="652"/>
+<SubTexture name="bocchi right0002" x="1956" y="2608" width="652" height="652"/>
+<SubTexture name="bocchi right0003" x="2608" y="2608" width="652" height="652"/>
+<SubTexture name="bocchi right0004" x="0" y="3260" width="652" height="652"/>
+<SubTexture name="bocchi right0005" x="652" y="3260" width="652" height="652"/>
+<SubTexture name="bocchi right0006" x="1304" y="3260" width="652" height="652"/>
+<SubTexture name="bocchi left0000" x="1956" y="3260" width="652" height="652"/>
+<SubTexture name="bocchi left0001" x="2608" y="3260" width="652" height="652"/>
+<SubTexture name="bocchi left0002" x="0" y="3912" width="652" height="652"/>
+<SubTexture name="bocchi left0003" x="652" y="3912" width="652" height="652"/>
+<SubTexture name="bocchi left0004" x="1304" y="3912" width="652" height="652"/>
+<SubTexture name="bocchi left0005" x="1956" y="3912" width="652" height="652"/>
+<SubTexture name="bocchi left0006" x="2608" y="3912" width="652" height="652"/>
+</TextureAtlas>
